@@ -1,0 +1,14 @@
+{
+  "name": "debug-log-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "本机调试日志服务：前后端共用写入 tests/debug-logs.txt",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
